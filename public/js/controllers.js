@@ -3,8 +3,13 @@
 /* Controllers */
 
 angular.module('portfolioApp.controllers', [])
-    .controller('HomeController', ['$scope', function($scope) {
+    .controller('HomeController', ['$scope', 'ProjectService', function($scope, ProjectService) {
         $scope.image1 = true;
+        $scope.projects = {};
+
+         ProjectService.success(function(data) {
+            $scope.projects = data;
+        });
 
         $scope.toggle = function() {
             $scope.image1 = !$scope.image1;
@@ -16,10 +21,12 @@ angular.module('portfolioApp.controllers', [])
     .controller('ContactController', ['$scope', function($scope) {
 
     }])
-    .controller('PortfolioController', ['$scope', 'PortfolioListService', function($scope, PortfolioListService) {
-        $scope.portfolioList = {};
+    .controller('ProjectController', ['$scope', 'ProjectService', '$routeParams', function($scope, ProjectService, $routeParams) {
+        $scope.projects = {};
+        $scope.id = $routeParams.id - 1;
 
-        PortfolioListService.success(function(data) {
-            $scope.portfolioList = data;
+        ProjectService.success(function(data) {
+            $scope.projects = data;
+            $scope.project = $scope.projects[$scope.id];
         });
     }]);
