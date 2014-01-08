@@ -2,13 +2,13 @@
     {
         "id": "1",
         "name": "Portfolio Example One",
-        "description": "This is an example of something pretty cool that I have done.",
+        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
         "imageUrl": "/public/img/portfolio-one.gif" },
 
     {
         "id": "2",
         "name": "Portfolio Example Two",
-        "description": "This is something else I have done.",
+        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
         "imageUrl": "/public/img/portfolio-one.gif"
     }
 ]

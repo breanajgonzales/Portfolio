@@ -42,3 +42,8 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+.business-header {
+        height: 400px;
+        background: url(http://placehold.it/1920x400) center center no-repeat;
+        background-size: cover;
+}
