@@ -35,12 +35,5 @@
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
         "imageUrl": "/public/img/imgres-5.jpg",
         "codeUrl": "http://www.github.com"
-    },
-    {
-        "id": "6",
-        "name": "Portfolio Example Six",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/imgres-1.jpg",
-        "codeUrl": "http://www.github.com"
     }
 ]
