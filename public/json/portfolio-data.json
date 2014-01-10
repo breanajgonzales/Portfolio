@@ -3,39 +3,44 @@
         "id": "1",
         "name": "Portfolio Example One",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/portfolio-one.gif" },
+        "imageUrl": "/public/img/imgres-1.jpg",
+        "codeUrl": "http://www.github.com"
+    },
 
     {
         "id": "2",
         "name": "Portfolio Example Two",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/portfolio-one.gif"
+        "imageUrl": "/public/img/imgres-2.jpg",
+        "codeUrl": "http://www.github.com"
     },
 
     {
         "id": "3",
         "name": "Portfolio Example Three",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/portfolio-one.gif"
+        "imageUrl": "/public/img/imgres-3.jpg",
+        "codeUrl": "http://www.github.com"
     },
     {
         "id": "4",
         "name": "Portfolio Example Four",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/portfolio-one.gif"
+        "imageUrl": "/public/img/imgres-4.jpg",
+        "codeUrl": "http://www.github.com"
     },
     {
         "id": "5",
         "name": "Portfolio Example Five",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/portfolio-one.gif"
+        "imageUrl": "/public/img/imgres-5.jpg",
+        "codeUrl": "http://www.github.com"
     },
     {
         "id": "6",
         "name": "Portfolio Example Six",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/portfolio-one.gif"
+        "imageUrl": "/public/img/imgres-1.jpg",
+        "codeUrl": "http://www.github.com"
     }
-
-
 ]

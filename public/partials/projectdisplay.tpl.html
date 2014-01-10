@@ -8,67 +8,62 @@
 -->
 
 
+<div class="container">
 
-    <div class="container">
+    <div class="row">
 
-      <div class="row">
-
-        <div class="col-lg-12">
-          <h1 class="page-header">{{project.name}}</h1>
+        <div class="col-lg-8">
+            <h1 class="page-header">{{project.name}}</h1>
         </div>
+<div class="col-lg-4">
+                <h1 class="page-header"><a class="btn btn-primary" href="#/home">Back to Projects</a></h1>
+             </div>
+    </div>
 
-      </div>
-
-      <div class="row">
+    <div class="row">
 
         <div class="col-md-8">
-          <img class="img-responsive" src="http://placehold.it/750x500">
+            <img class="img-responsive" src={{project.imageUrl}}>
         </div>
 
         <div class="col-md-4">
-          <h3>Project Description</h3>
-          <p>{{project.description}}</p>
-          <h3>Project Details</h3>
-          <ul>
-            <li>Lorem Ipsum</li>
-            <li>Dolor Sit Amet</li>
-            <li>Consectetur</li>
-            <li>Adipiscing Elit</li>
-          </ul>
+            <h3>Project Description</h3>
+
+            <p>{{project.description}}</p>
+
+            <h3>Project Details</h3>
+            <ul>
+                <li>Lorem Ipsum</li>
+                <li>Dolor Sit Amet</li>
+                <li>Consectetur</li>
+                <li>Adipiscing Elit</li>
+            </ul>
+
+            <hr>
+            <a class="btn btn-primary" target="_blank" href="{{project.codeUrl}}">View Source Code <span
+                    class="glyphicon glyphicon-chevron-right"></span></a>
         </div>
 
-      </div>
-
-      <div class="row">
+    </div>
+    <div class="row">
 
         <div class="col-lg-12">
-          <h3 class="page-header">Related Projects</h3>
+            <h3 class="page-header">Related Projects</h3>
         </div>
-
-        <div class="col-sm-3 col-xs-6">
-        	<a href="#"><img class="img-responsive portfolio-item" src="http://placehold.it/500x300"></a>
+        <div class="col-sm-12">
+            <div ng-repeat="relatedProject in projects">
+            <span ng-hide="project.id==relatedProject.id" class="col-sm-3 col-xs-6"><a href="#/project/{{relatedProject.id}}"><img class="img-responsive" src={{relatedProject.imageUrl}}></a></span>
+            </div>
         </div>
-
-        <div class="col-sm-3 col-xs-6">
-        	<a href="#"><img class="img-responsive portfolio-item" src="http://placehold.it/500x300"></a>
-        </div>
-
-        <div class="col-sm-3 col-xs-6">
-        	<a href="#"><img class="img-responsive portfolio-item" src="http://placehold.it/500x300"></a>
-        </div>
-
-        <div class="col-sm-3 col-xs-6">
-        	<a href="#"><img class="img-responsive portfolio-item" src="http://placehold.it/500x300"></a>
-        </div>
-
-      </div>
-
-    </div><!-- /.container -->
-
-    <div class="container">
-
-      <hr>
+</div>
 
 
-    </div><!-- /.container -->
+</div><!-- /.container -->
+
+<div class="container">
+
+    <hr>
+
+</div><!-- /.container -->
+
 
