@@ -15,34 +15,33 @@
         <div class="col-lg-8">
             <h1 class="page-header">{{project.name}}</h1>
         </div>
-<div class="col-lg-4">
-                <h1 class="page-header"><a class="btn btn-primary" href="#/home">Back to Projects</a></h1>
-             </div>
+        <div class="col-lg-4">
+            <h1 class="page-header"><a class="btn btn-primary" href="#/home">Back to Projects</a></h1>
+        </div>
     </div>
 
-    <div class="row">
 
-        <div class="col-md-8">
-            <img class="img-responsive" src={{project.imageUrl}}>
-        </div>
+    <div class="col-md-8">
+        <h3><img class="img-responsive" src="{{project.imageUrl}}"></h3>
+    </div>
 
-        <div class="col-md-4">
-            <h3>Project Description</h3>
+    <div class="col-md-4">
+        <h3>Project Description</h3>
 
-            <p>{{project.description}}</p>
+        <p>{{project.description}}</p>
 
-            <h3>Project Details</h3>
-            <ul>
-                <li>Lorem Ipsum</li>
-                <li>Dolor Sit Amet</li>
-                <li>Consectetur</li>
-                <li>Adipiscing Elit</li>
-            </ul>
+        <h3>Project Details</h3>
+        <ul>
+            <li>Lorem Ipsum</li>
+            <li>Dolor Sit Amet</li>
+            <li>Consectetur</li>
+            <li>Adipiscing Elit</li>
+        </ul>
 
-            <hr>
-            <a class="btn btn-primary" target="_blank" href="{{project.codeUrl}}">View Source Code <span
-                    class="glyphicon glyphicon-chevron-right"></span></a>
-        </div>
+        <hr>
+        <a class="btn btn-primary" target="_blank" href="{{project.codeUrl}}">View Source Code <span
+                class="glyphicon glyphicon-chevron-right"></span></a>
+
 
     </div>
     <div class="row">
@@ -52,10 +51,12 @@
         </div>
         <div class="col-sm-12">
             <div ng-repeat="relatedProject in projects">
-            <span ng-hide="project.id==relatedProject.id" class="col-sm-3 col-xs-6"><a href="#/project/{{relatedProject.id}}"><img class="img-responsive" src={{relatedProject.imageUrl}}></a></span>
+                <span ng-hide="project.id==relatedProject.id" class="col-sm-3 col-xs-6"><a
+                        href="#/project/{{relatedProject.id}}"><img class="img-responsive"
+                                                                    src={{relatedProject.imageUrl}}></a></span>
             </div>
         </div>
-</div>
+    </div>
 
 
 </div><!-- /.container -->
