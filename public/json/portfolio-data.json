@@ -1,10 +1,10 @@
 [
     {
         "id": "1",
-        "name": "Portfolio Example One",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
+        "name": "Customer Delivery App",
+        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date",
         "imageUrl": "/public/img/imgres-1.jpg",
-        "codeUrl": "http://www.github.com"
+        "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master"
     },
 
     {
