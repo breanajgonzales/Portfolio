@@ -89,7 +89,7 @@ footer {
 }
 
 footer p {
-  padding: 30px
+  padding: 20px
 }
 
 .footer-text {
@@ -109,6 +109,7 @@ footer p {
   text-align: center;
   margin: 0;
   padding: 30px 0 10px;
+  color: #fff;
 }
 
 .top-divider {
@@ -129,6 +130,7 @@ footer p {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
+  color: #fff;
 }
 
 .navbar {
