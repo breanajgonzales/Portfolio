@@ -1,95 +1,92 @@
 /* app css stylesheet */
 
-.menu {
-    list-style: none;
-    border-bottom: 0.1em solid black;
-    margin-bottom: 2em;
-    padding: 0 0 0.5em;
-}
+/*.menu {*/
+    /*list-style: none;*/
+    /*border-bottom: 0.1em solid black;*/
+    /*margin-bottom: 2em;*/
+    /*padding: 0 0 0.5em;*/
+/*}*/
 
-.menu:before {
-    content: "[";
-}
+/*.menu:before {*/
+    /*content: "[";*/
+/*}*/
 
-.menu:after {
-    content: "]";
-}
+/*.menu:after {*/
+    /*content: "]";*/
+/*}*/
 
-.menu > li {
-    display: inline;
-}
+/*.menu > li {*/
+    /*display: inline;*/
+/*}*/
 
-.menu > li:before {
-    content: "|";
-    padding-right: 0.3em;
-}
+/*.menu > li:before {*/
+    /*content: "|";*/
+    /*padding-right: 0.3em;*/
+/*}*/
 
-.menu > li:nth-child(1):before {
-    content: "";
-    padding: 0;
-}
+/*.menu > li:nth-child(1):before {*/
+    /*content: "";*/
+    /*padding: 0;*/
+/*}*/
 
-div.portfolio-showcase table tr th {
-    padding: 15px 15px 15px 15px;
-    margin-left: 100px;
-}
+/*div.portfolio-showcase table tr th {*/
+    /*padding: 15px 15px 15px 15px;*/
+    /*margin-left: 100px;*/
+/*}*/
 
-div.portfolio-showcase table tr.heading {
-    background-color: #808080;
-}
+/*div.portfolio-showcase table tr.heading {*/
+    /*background-color: #808080;*/
+/*}*/
 
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
+/*body {*/
+  /*padding-top: 50px;*/
+  /*padding-bottom: 20px;*/
+/*}*/
 
-.full-width-image-1 {
-	background: url("/public/img/salt_lake_city_sunset_panorama_edited.jpg") no-repeat center center;
-	background-size: cover;
-	text-align: center;
-	padding: 50px 0;
-}
+/*.full-width-image-1 {*/
+	/*background: url("/public/img/salt_lake_city_sunset_panorama_edited.jpg") no-repeat center center;*/
+	/*background-size: cover;*/
+	/*text-align: center;*/
+	/*padding: 50px 0;*/
+/*}*/
 
-.logo-wrapper {
-    position:relative;
-    top:50px;
-    left:0px;
-}
+/*.logo-wrapper {*/
+    /*position:relative;*/
+    /*top:50px;*/
+    /*left:0px;*/
+/*}*/
 
-.section-heading {
-	font-size: 4em;
-	margin: 30px 0;
-}
+/*.section-heading {*/
+	/*font-size: 4em;*/
+	/*margin: 30px 0;*/
+/*}*/
 
-.section-lead {
-	margin: 30px 0;
-}
+/*.section-lead {*/
+	/*margin: 30px 0;*/
+/*}*/
 
-.section-paragraph {
-	margin: 30px 0;
-}
+/*.section-paragraph {*/
+	/*margin: 30px 0;*/
+/*}*/
 
-footer {
-	margin: 50px 0;
-}
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {*/
 
-.section-heading {
-	font-size: 2em;
-}
+/*.section-heading {*/
+	/*font-size: 2em;*/
+/*}*/
 
-.section {
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-}
-.weather {
-    position:relative;
-    top:18px;
-    left:50px;
-    font-size: 18px
-}
-.i {
-    font-style: italic;
-}
+/*.section {*/
+	/*padding-top: 25px;*/
+	/*padding-bottom: 25px;*/
+/*}*/
+/*}*/
+/*.weather {*/
+    /*position:relative;*/
+    /*top:18px;*/
+    /*left:50px;*/
+    /*font-size: 18px*/
+/*}*/
+/*.i {*/
+    /*font-style: italic;*/
+/*}*/

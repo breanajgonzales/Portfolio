@@ -89,7 +89,6 @@ footer {
 }
 
 footer p {
-  margin: 0;
   padding: 30px
 }
 
@@ -177,13 +176,11 @@ footer p {
 }
 .weather {
     position:relative;
-    top:18px;
-    left:50px;
-    font-size: 18px
 }
+
 .center {
-width: 65%;
-display: block;
-margin-left: auto;
-margin-right: auto;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
