@@ -21,6 +21,9 @@ angular.module('portfolioApp.controllers', [])
     .controller('ContactController', ['$scope', function($scope) {
 
     }])
+    .controller('BlogController', ['$scope', function($scope) {
+
+    }])
     .controller('ProjectController', ['$scope', 'ProjectService', '$routeParams', function($scope, ProjectService, $routeParams) {
         $scope.projects = {};
         $scope.id = $routeParams.id - 1;
