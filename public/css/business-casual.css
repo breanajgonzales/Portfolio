@@ -22,7 +22,13 @@ hr {
   border-color: #999999;
   max-width: 400px;
 }
+p {
+    font-family:'Whitney SSm A', 'Whitney SSm B', "ff-meta-web-pro", sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align:left;
 
+}
 .brand,
 .address-bar {
   display: none;
