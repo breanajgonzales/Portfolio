@@ -32,10 +32,10 @@
                                 class="fa fa-google-plus-square fa-3x"></i></a>
                     </div>
                     <br>
-                    <h2 class="intro-text"><strong>Weather </strong>in Provo</h2>
-                    <div class="weather intro-text">
-                            <i class="fa fa-cloud weather-symbol fa-3x pull-left"></i>
-                            <div>Mostly Cloudy and 40°C</div>
+                    <h2 class="intro-text" ng-if="provo"><strong>Weather </strong>in Provo</h2>
+                    <div class="weather intro-text" ng-if="provo">
+                            <a target="_blank" href="http://www.weather.com/weather/today/USUT0208:1"><i class="fa fa-cloud weather-symbol fa-3x pull-left"></i></a>
+                            <div>{{provo.current_observation.weather}} and {{provo.temp}}°F</div>
                     </div>
                 </div>
                 <div class="clearfix"></div>

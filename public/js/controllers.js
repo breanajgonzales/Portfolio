@@ -18,8 +18,18 @@ angular.module('portfolioApp.controllers', [])
     .controller('AboutController', ['$scope', function($scope) {
 
     }])
-    .controller('ContactController', ['$scope', function($scope) {
-
+    .controller('ContactController', ['$scope', '$http', function($scope, $http) {
+        var weather = function() {
+            $http.jsonp('http://api.wunderground.com/api/738c3b992e7164dd/conditions/q/UT/Provo.json?callback=JSON_CALLBACK').
+                success(function (data) {
+                    $scope.provo = data;
+                    var temp = data.current_observation.temp_f;
+                    var temp = parseInt(temp);
+                    $scope.provo.temp = temp;
+                    console.log($scope.provo)
+                });
+        }
+        weather();
     }])
     .controller('BlogController', ['$scope', function($scope) {
 
@@ -33,3 +43,4 @@ angular.module('portfolioApp.controllers', [])
             $scope.project = $scope.projects[$scope.id];
         });
     }]);
+
