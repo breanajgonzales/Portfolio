@@ -1,5 +1,7 @@
 body {
-  background: url("/public/img/Mount_Timpanogos.jpg") no-repeat center center fixed;
+  background: url("/public/img/Mount_Timpanogos2.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-position-y:-30px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
