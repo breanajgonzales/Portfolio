@@ -202,6 +202,9 @@ footer p {
 .weather-symbol {
     color: #428bca;
 }
+.weather-symbol:hover {
+    color: #3071a9
+}
 .italic {
     font-style:italic;
 }
