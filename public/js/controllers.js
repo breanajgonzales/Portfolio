@@ -14,6 +14,8 @@ angular.module('portfolioApp.controllers', [])
         $scope.toggle = function() {
             $scope.image1 = !$scope.image1;
         };
+
+        console.log($scope.resetText);
     }])
     .controller('AboutController', ['$scope', function($scope) {
 

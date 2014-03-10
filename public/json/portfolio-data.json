@@ -1,39 +1,44 @@
 [
     {
         "id": "1",
-        "name": "Customer Delivery App",
+        "name": "Placer Travel Board",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date",
-        "imageUrl": "/public/img/imgres-1.jpg",
-        "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master"
+        "imageUrl": "/public/img/Placer.png",
+        "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master",
+        "technologies": ["Node.js", "MongoDB", "JavaScript", "Bootstrap", "AngularJS", "Git"]
     },
 
     {
         "id": "2",
-        "name": "Portfolio Example Two",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/imgres-2.jpg",
-        "codeUrl": "http://www.github.com"
+        "name": "Green Wholesale Delivery Service",
+        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date",
+        "imageUrl": "/public/img/GreenWholesale.jpeg",
+        "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master",
+        "technologies": ["SQLite", "Python", "Django", "AngularJS", "Bootstrap", "Git", "Heroku", "Jade"]
     },
 
     {
         "id": "3",
-        "name": "Portfolio Example Three",
+        "name": "Clearview",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
         "imageUrl": "/public/img/imgres-3.jpg",
-        "codeUrl": "http://www.github.com"
+        "codeUrl": "",
+        "technologies": ["HTML", "PostgreSQL"]
     },
     {
         "id": "4",
-        "name": "Portfolio Example Four",
+        "name": "Mozilla Localization es-mx",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
         "imageUrl": "/public/img/imgres-4.jpg",
-        "codeUrl": "http://www.github.com"
+        "codeUrl": "http://www.github.com",
+        "technologies": ["Localization", "Management"]
     },
     {
         "id": "5",
-        "name": "Portfolio Example Five",
+        "name": "LoveNote",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/imgres-5.jpg",
-        "codeUrl": "http://www.github.com"
+        "imageUrl": "/public/img/imgres-3.jpg",
+        "codeUrl": "http://www.github.com",
+        "technologies": ["HTML", "CSS"]
     }
 ]

@@ -204,3 +204,16 @@ footer p {
 .italic {
     font-style:italic;
 }
+.font-mfizz {
+    font-size: 4em;
+    color: #777;
+}
+.font-mfizz:hover {
+    color: #3071a9
+}
+.refresh {
+    color: #777;
+}
+.refresh:hover {
+    color: #3071a9
+}
