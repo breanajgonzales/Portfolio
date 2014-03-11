@@ -5,7 +5,7 @@
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date",
         "imageUrl": "/public/img/Placer.png",
         "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master",
-        "technologies": ["Node.js", "MongoDB", "JavaScript", "Bootstrap", "AngularJS", "Git"]
+        "technologies": ["SQLite", "Python", "Django", "JavaScript", "Git", "Bootstrap", "AngularJS"]
     },
 
     {
@@ -14,7 +14,7 @@
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date",
         "imageUrl": "/public/img/GreenWholesale.jpeg",
         "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master",
-        "technologies": ["SQLite", "Python", "Django", "AngularJS", "Bootstrap", "Git", "Heroku", "Jade"]
+        "technologies": ["Node.js", "MongoDB", "Heroku", "Javascript", "Jade", "CSS", "Git", "Bootstrap", "AngularJS"]
     },
 
     {
@@ -23,7 +23,7 @@
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
         "imageUrl": "/public/img/imgres-3.jpg",
         "codeUrl": "",
-        "technologies": ["HTML", "PostgreSQL"]
+        "technologies": ["HTML", "PostgreSQL", "Git", "AngularJS"]
     },
     {
         "id": "4",
@@ -35,10 +35,10 @@
     },
     {
         "id": "5",
-        "name": "LoveNote",
+        "name": "Love Note",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
         "imageUrl": "/public/img/imgres-3.jpg",
         "codeUrl": "http://www.github.com",
-        "technologies": ["HTML", "CSS"]
+        "technologies": ["HTML", "CSS", "Git", "Bootstrap"]
     }
 ]

@@ -25,7 +25,7 @@ WebHostingHub Glyphs - author WebHostingHub.com - http://webhostinghub.com/glyph
   />
 <missing-glyph horiz-adv-x="256" vert-adv-y="90" 
  />
-    <glyph glyph-name="dollar" unicode="dollar" vert-adv-y="90" 
+    <glyph glyph-name="dollar" unicode="dollar" vert-adv-y="90"
 d="M831.5 640q-26.5 0 -45 18.5t-18.5 45.5q0 34 -37.5 64t-96.5 47t-122 17t-122 -17t-96.5 -47t-37.5 -64t37.5 -64t96.5 -47t122 -17q104 0 192.5 -34.5t140 -93t51.5 -128.5q0 -94 -91.5 -165.5t-228.5 -86.5v-4q0 -27 -19 -45.5t-45.5 -18.5t-45 18.5t-18.5 45.5v4
 q-137 15 -228.5 86.5t-91.5 165.5q0 26 18.5 45t45 19t45.5 -19t19 -45q0 -34 37.5 -64t96.5 -47t122 -17t122 17t96.5 47t37.5 64t-37.5 64t-96.5 47t-122 17q-104 0 -192.5 34t-140 93t-51.5 129q0 94 91.5 165.5t228.5 86.5v4q0 26 18.5 45t45 19t45.5 -19t19 -45v-4
 q137 -15 228.5 -86.5t91.5 -165.5q0 -27 -19 -45.5t-45.5 -18.5z" />
