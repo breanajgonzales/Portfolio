@@ -32,6 +32,7 @@ p {
     color: #333;
     text-align:left;
 }
+
 .web_text {
     font-size: 1.25em;
     color: #333;
@@ -216,4 +217,9 @@ footer p {
 }
 .refresh:hover {
     color: #3071a9
+}
+.quote {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-style:italic;
 }

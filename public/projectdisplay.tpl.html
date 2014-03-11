@@ -18,13 +18,30 @@
 
                     <h2 class = "intro-text">Tools Used</h2>
                     <ul>
-                        <li ng-repeat="tools in project.technologies">{{tools}}</li>
+                        <li class = "web_text" ng-repeat="tools in project.technologies">{{tools}}</li>
                     </ul>
                     </br>
                         <hr ng-if="project.codeUrl">
 
+                    <a class="btn btn-primary" ng-if="project.infoUrl" target="_blank" href="{{project.infoUrl}}">GO TO PROJECT<span
+                    class="glyphicon glyphicon-chevron-right"></span></a>&nbsp;&nbsp;
                     <a class="btn btn-primary" ng-if="project.codeUrl" target="_blank" href="{{project.codeUrl}}">VIEW SOURCE CODE <span
                     class="glyphicon glyphicon-chevron-right"></span></a>
+
+                    <div ng-if="project.quoteLink">
+                        </br>
+                        </br>
+                        <i class="icon-quote"></i><p class="quote">As a result, one new mozillian,
+                            <a target="_blank" href="https://mozillians.org/en-US/u/bjones/">Breana Jones</a>
+                            , has really taken initiative. Last night she attended an IRC meetup with Mozilla Mexico, she’s added herself to the es-MX team wiki page, and has announced that she will coordinate the l10n efforts for Firefox for Android to ensure that it is launched in the multilocale builds with Firefox 30.</p>
+                        <div class="web_text">
+                            <a class="quote" target="_blank" href="{{project.quoteLink}}"> - Mozilla L10n Blog</a>
+                        </div>
+                    </div>
+                    <div ng-if="project.videoUrl">
+                        </br>
+                        <iframe width="300" height="169" src="http://www.youtube.com/embed/bQkIhJDd9fE" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
                 </div>
             </div>
         </div>

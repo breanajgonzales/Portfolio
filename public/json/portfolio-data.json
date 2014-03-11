@@ -2,9 +2,9 @@
     {
         "id": "1",
         "name": "Placer Travel Board",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date",
+        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date, Pinterest layout too",
         "imageUrl": "/public/img/Placer.png",
-        "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master",
+        "codeUrl": "https://github.com/breanajones/TravelApp/commits/master",
         "technologies": ["SQLite", "Python", "Django", "JavaScript", "Git", "Bootstrap", "AngularJS"]
     },
 
@@ -27,18 +27,22 @@
     },
     {
         "id": "4",
-        "name": "Mozilla Localization es-mx",
+        "name": "Mozilla l10n es-MX (Firefox for Android)",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/imgres-4.jpg",
-        "codeUrl": "http://www.github.com",
-        "technologies": ["Localization", "Management"]
+        "imageUrl": "/public/img/FennecProject.png",
+        "infoUrl": "http://mozilla.locamotion.org/es_MX/mobile/",
+        "technologies": ["Localization", "Firefox", "Android"],
+        "projectQuote": "As a result, one new mozillian, Breana Jones, has really taken initiative. Last night she attended an IRC meetup with Mozilla Mexico, she’s added herself to the es-MX team wiki page, and has announced that she will coordinate the l10n efforts for Firefox for Android to ensure that it is launched in the multilocale builds with Firefox 30.",
+        "quoteLink": "https://blog.mozilla.org/l10n-sig/"
     },
     {
         "id": "5",
-        "name": "Love Note",
+        "name": "LoveNote App",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "/public/img/imgres-3.jpg",
-        "codeUrl": "http://www.github.com",
+        "imageUrl": "/public/img/LoveNote.png",
+        "codeUrl": "https://github.com/sos12/Love-Note/commits/master",
+        "infoUrl": "http://lovenoteapp.co",
+        "videoUrl": "https://www.youtube.com/watch?v=bQkIhJDd9fE",
         "technologies": ["HTML", "CSS", "Git", "Bootstrap"]
     }
 ]
