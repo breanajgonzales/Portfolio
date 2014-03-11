@@ -3,7 +3,7 @@
         "id": "1",
         "name": "Placer Travel Board",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date, Pinterest layout too",
-        "imageUrl": "img/Placer.png",
+        "imageUrl": "img/Placer.jpeg",
         "codeUrl": "https://github.com/breanajones/TravelApp/commits/master",
         "technologies": ["SQLite", "Python", "Django", "JavaScript", "Git", "Bootstrap", "AngularJS"]
     },
