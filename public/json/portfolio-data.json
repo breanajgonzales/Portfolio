@@ -3,9 +3,9 @@
         "id": "1",
         "name": "Placer Travel Board",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date, Pinterest layout too",
-        "imageUrl": "img/Placer.jpeg",
+        "imageUrl": "img/PlacerTravel.jpg",
         "codeUrl": "https://github.com/breanajones/TravelApp/commits/master",
-        "technologies": ["SQLite", "Python", "Django", "JavaScript", "Git", "Bootstrap", "AngularJS"]
+        "technologies": ["Python", "Django", "SQLite", "JavaScript", "HTML", "CSS", "Git", "Bootstrap", "AngularJS"]
     },
 
     {
@@ -14,35 +14,35 @@
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date",
         "imageUrl": "img/GreenWholesale.jpeg",
         "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master",
-        "technologies": ["Node.js", "MongoDB", "Heroku", "Javascript", "Jade", "CSS", "Git", "Bootstrap", "AngularJS"]
+        "technologies": ["MongoDB", "Node.js", "Jade", "Javascript", "CSS", "Git", "Bootstrap", "AngularJS", "Heroku"]
     },
 
     {
         "id": "3",
         "name": "Clearview",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "img/imgres-3.jpg",
+        "imageUrl": "img/Clearview2.jpeg",
         "codeUrl": "",
-        "technologies": ["HTML", "PostgreSQL", "Git", "AngularJS"]
+        "technologies": ["Python", "Django", "Git", "HTML", "AngularJS"]
     },
     {
         "id": "4",
         "name": "Mozilla l10n es-MX (Firefox for Android)",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
-        "imageUrl": "img/FennecProject.png",
+        "imageUrl": "img/FennecProject.jpeg",
         "infoUrl": "http://mozilla.locamotion.org/es_MX/mobile/",
-        "technologies": ["Localization", "Firefox", "Android"],
+        "technologies": ["Localization", "Android"],
         "projectQuote": "As a result, one new mozillian, Breana Jones, has really taken initiative. Last night she attended an IRC meetup with Mozilla Mexico, she’s added herself to the es-MX team wiki page, and has announced that she will coordinate the l10n efforts for Firefox for Android to ensure that it is launched in the multilocale builds with Firefox 30.",
         "quoteLink": "https://blog.mozilla.org/l10n-sig/"
     },
     {
         "id": "5",
-        "name": "LoveNote App",
+        "name": "Love Note App",
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
         "imageUrl": "img/LoveNote.png",
         "codeUrl": "https://github.com/sos12/Love-Note/commits/master",
         "infoUrl": "http://lovenoteapp.co",
         "videoUrl": "https://www.youtube.com/watch?v=bQkIhJDd9fE",
-        "technologies": ["HTML", "CSS", "Git", "Bootstrap"]
+        "technologies": ["Node.js", "HTML", "CSS", "Git", "Bootstrap"]
     }
 ]
