@@ -1,8 +1,10 @@
 [
     {
         "id": "1",
+        "date": "February 2014",
         "name": "Placer Travel Board",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date, Pinterest layout too",
+        "description": "A social media site where users can share photos and information about little-known amazing locations they come across or would like to visit. Locations can also be set by GPS coordinates.",
+        "contributions": "",
         "imageUrl": "img/PlacerTravel.jpg",
         "codeUrl": "https://github.com/breanajones/TravelApp/commits/master",
         "technologies": ["Python", "Django", "PostgreSQL", "JavaScript", "HTML", "CSS", "Git", "Bootstrap", "AngularJS"]
@@ -10,8 +12,10 @@
 
     {
         "id": "2",
+        "date": "January 2014",
         "name": "Green Wholesale Delivery Service",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date",
+        "description": "A web-based address book that uses MongoDB to allow users to store, update and retrieve customer and product information to place orders for a delivery service. Jade was used as the markup language in place of HTML.",
+        "contributions": "",
         "imageUrl": "img/GreenWholesale.jpeg",
         "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master",
         "technologies": ["MongoDB", "Node.js", "Jade", "Javascript", "CSS", "Git", "Bootstrap", "AngularJS", "Heroku"]
@@ -19,16 +23,20 @@
 
     {
         "id": "3",
+        "date": "February - March 2014",
         "name": "Clearview",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
+        "description": "A live client project where I was able to debug, perform QA and assist with hotfixes as part of an internship during the final three weeks of class at Coding Campus.",
+        "contributions": "",
         "imageUrl": "img/Clearview2.jpeg",
         "codeUrl": "",
         "technologies": ["Python", "Django", "Git", "HTML", "AngularJS"]
     },
     {
         "id": "4",
+        "date": "March 2014 - Currently",
         "name": "Mozilla l10n es-MX (Firefox for Android)",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
+        "description": "As the coordinator of localization efforts for Firefox for Android (Mexican Spanish), I am responsible to ensure it is launched in the multi-locale builds with Firefox 30 at the end of April. I also spearheaded market research to determine what browsers Mexican users would prefer for the new version.",
+        "contributions": "",
         "imageUrl": "img/FennecProject.jpeg",
         "infoUrl": "http://mozilla.locamotion.org/es_MX/mobile/",
         "technologies": ["Localization", "Android"],
@@ -37,8 +45,10 @@
     },
     {
         "id": "5",
+        "date": "February 2014",
         "name": "Love Note App",
-        "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired",
+        "description": "Love Note is an app my team and I created at Startup Weekend Provo, which helps bring couples closer together by remembering the little things. Users answer a prompted question every so often so that Love Note can learn the way they love to be loved. Love Prompts are then sent via the LoveNote app to their significant other to provide them ideas for the best ways to show love often for their loved one.",
+        "contributions": "",
         "imageUrl": "img/LoveNote.png",
         "codeUrl": "https://github.com/sos12/Love-Note/commits/master",
         "infoUrl": "http://lovenoteapp.co",
