@@ -5,7 +5,7 @@
         "description": "Summary/short description: Role I played in the project, lessons learned, skills acquired, created date, Pinterest layout too",
         "imageUrl": "img/PlacerTravel.jpg",
         "codeUrl": "https://github.com/breanajones/TravelApp/commits/master",
-        "technologies": ["Python", "Django", "SQLite", "JavaScript", "HTML", "CSS", "Git", "Bootstrap", "AngularJS"]
+        "technologies": ["Python", "Django", "PostgreSQL", "JavaScript", "HTML", "CSS", "Git", "Bootstrap", "AngularJS"]
     },
 
     {
