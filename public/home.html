@@ -1,71 +1,80 @@
 <div class="container">
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center" ng-model="resetText">Filter projects&nbsp;<i
+                        class="fa fa-refresh fa-fw refresh" ng-click="tech=''"></i></h2>
+                <hr>
+                <div class="text-center">
+                    <i class="icon-python font-mfizz" ng-click="tech='python'">&nbsp;</i>
+                    <i class="icon-javascript font-mfizz" ng-click="tech='js'">&nbsp;</i>
+                    <i class="icon-nodejs font-mfizz" ng-click="tech='node'">&nbsp;</i>
+                    <i class="icon-postgres font-mfizz" ng-click="tech='postgres'">&nbsp;</i>
+                    <i class="icon-mongodb font-mfizz" ng-click="tech='mongo'">&nbsp;</i>
+                    <i class="icon-heroku font-mfizz" ng-click="tech='heroku'">&nbsp;</i>
+                    <i class="fa fa-css3 font-mfizz" ng-click="tech='css'">&nbsp;</i>
+                    <i class="fa fa-html5 font-mfizz" ng-click="tech='html'">&nbsp;</i>
+                    <i class="fa fa-android font-mfizz" ng-click="tech='android'">&nbsp;</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div ng-repeat="project in projects | filter:tech">
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
-                    <hr>
-                         <h2 class="intro-text text-center" ng-model="resetText">Filter projects&nbsp;<i class="fa fa-refresh fa-fw refresh" ng-click="tech=''"></i></h2>
-                    <hr>
-                    <div class="text-center">
-                        <i class="icon-python font-mfizz" ng-click="tech='python'">&nbsp;</i>
-                        <i class="icon-javascript font-mfizz" ng-click="tech='js'">&nbsp;</i>
-                        <i class="icon-nodejs font-mfizz" ng-click="tech='node'">&nbsp;</i>
-                        <i class="icon-postgres font-mfizz" ng-click="tech='postgres'">&nbsp;</i>
-                        <i class="icon-mongodb font-mfizz" ng-click="tech='mongo'">&nbsp;</i>
-                        <i class="icon-heroku font-mfizz" ng-click="tech='heroku'">&nbsp;</i>
-                        <i class="fa fa-css3 font-mfizz" ng-click="tech='css'">&nbsp;</i>
-                        <i class="fa fa-html5 font-mfizz" ng-click="tech='html'">&nbsp;</i>
-                        <i class="fa fa-android font-mfizz" ng-click="tech='android'">&nbsp;</i>
+                    <div class="col-lg-7">
+                        <br>
+                        <br>
+                        <a href="#/project/{{project.id}}"><img class="img-responsive" src={{project.imageUrl}}></a>
                     </div>
-                </div>
-            </div>
-        </div>
 
-        <div ng-repeat="project in projects | filter:tech">
-            <div class="row">
-                <div class="box">
-                    <div class="col-lg-12">
-                        <div class="col-lg-7">
-                            <br>
-                            <br>
-                            <a href="#/project/{{project.id}}"><img class="img-responsive" src={{project.imageUrl}}></a>
-                        </div>
+                    <div class="col-lg-5">
+                        <br>
 
-                        <div class="col-lg-5">
-                            <br>
-                            <h2 class="intro-text">{{project.name}}</h2>
-                            <p class="italic">{{project.date}}</p>
-                            <br>
-                            <p>{{project.description}}</p>
-                            <ul>
-                                <li class = "web_text" ng-repeat="tools in project.technologies">{{tools}}</li>
-                            </ul>
-                            </br>
-                            <a class="btn btn-primary" href="#/project/{{project.id}}">VIEW DETAILS<span
-                            class="glyphicon glyphicon-chevron-right"></span></a>&nbsp; &nbsp; &nbsp;
-                            <a class="btn btn-primary" ng-if="project.codeUrl" target="_blank" href="{{project.codeUrl}}">VIEW SOURCE CODE <span
-                            class="glyphicon glyphicon-chevron-right"></span></a>
-                        </div>
+                        <h2 class="intro-text">{{project.name}}</h2>
+
+                        <p class="italic">{{project.date}}</p>
+                        <br>
+
+                        <p>{{project.description}}</p>
+                        <ul>
+                            <li class="web_text" ng-repeat="tools in project.technologies">{{tools}}</li>
+                        </ul>
+                        </br>
+                        <a class="btn btn-primary" href="#/project/{{project.id}}">VIEW DETAILS<span
+                                class="glyphicon glyphicon-chevron-right"></span></a>&nbsp; &nbsp; &nbsp;
+                        <a class="btn btn-primary" ng-if="project.codeUrl" target="_blank" href="{{project.codeUrl}}">VIEW
+                            SOURCE CODE <span
+                                    class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <div>
-                        <hr>
-                        <h2 class="intro-text text-center">Why I code</h2>
-                        <hr>
-                        <div class="center">
-                            <p>I love discovering the structure of projects, breaking down all the pieces and figuring out how it all interplays and connects.</p>
-                            <p>As you code, the more thorough you become in your work, and the more you realize the limitless possibilities of technology. There is so much that we don't know...so much to discover!</p>
-                            <p>Welcome to a glimpse of my continual process of discovery. Take a look around at my latest projects.</p>
-                            <br>
-                        </div>
+    </div>
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <div>
+                    <hr>
+                    <h2 class="intro-text text-center">Why I code</h2>
+                    <hr>
+                    <div class="center">
+                        <p>I love discovering the structure of projects, breaking down all the pieces and figuring out
+                            how it all interplays and connects.</p>
+
+                        <p>As you code, the more thorough you become in your work, and the more you realize the
+                            limitless possibilities of technology. There is so much that we don't know...so much to
+                            discover!</p>
+
+                        <p>Welcome to a glimpse of my continual process of discovery. Take a look around at my latest
+                            projects.</p>
+                        <br>
                     </div>
                 </div>
             </div>
         </div>
-    <!--</div>-->
     </div>
 </div>
