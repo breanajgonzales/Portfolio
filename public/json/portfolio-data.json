@@ -15,7 +15,7 @@
         "date": "January 2014",
         "name": "Green Wholesale Delivery Service",
         "description": "A web-based address book that uses MongoDB to allow users to store, update and retrieve customer and product information to place orders for a delivery service. Jade was used as the markup language in place of HTML.",
-        "contributions": "Added fields to customer model using MongoDB to retrieve and display information on customer page and add customer page, created pre-populated dropdown menu with states for address selection and ability to save address selection, added button with ability to delete customers, created edit customer page with ability to edit, made customer list searchable by zip code, last name, and company.",
+        "contributions": "Added fields to contact model using MongoDB to retrieve and display information on contact page and add contact page, created pre-populated dropdown menu with states for address selection and ability to save address selection, added button with ability to delete customers, created edit customer page with ability to edit, made customer list searchable by zip code, last name, and company.",
         "imageUrl": "img/GreenWholesale.jpeg",
         "codeUrl": "https://github.com/breanajones/CustomerDeliveryApp/commits/master",
         "technologies": ["MongoDB", "Node.js", "Jade", "Javascript", "CSS", "Git", "Bootstrap", "AngularJS", "Heroku"]
