@@ -35,7 +35,7 @@
         "date": "March 2014 - Currently",
         "name": "Mozilla l10n es-MX (Firefox for Android)",
         "description": "As the coordinator of localization efforts for Firefox for Android (Mexican Spanish), I am responsible to ensure it is launched in the multi-locale builds with Firefox 30 at the end of April.",
-        "contributions": "I spearheaded market research to determine what browsers Mexican users would prefer for the new version of Firefox for Android. I created the survey that received well over 100 responses from Mexican Firefox Android users, compiled the results, and made the determination for what browsers to include. I will now be working with team members/volunteers and coordinate with Mozilla localization employee to ensure all tasks are completed on schedule.",
+        "contributions": "I spearheaded market research to determine what browsers Mexican users would prefer for the new version of Firefox for Android (Fennec). I created the survey that received well over 100 responses from Mexican Firefox Android users, compiled the results, and made the determination for what browsers to include. I am working with team members/volunteers and coordinate with Mozilla localization employees to ensure all tasks are completed on schedule. As a result of my involvement, I was invited to attend a Mozilla es-MX localization boot camp in Mexico City, courtesy of Mozilla.",
         "imageUrl": "img/FennecProject.jpeg",
         "infoUrl": "http://mozilla.locamotion.org/es_MX/mobile/",
         "technologies": ["Localization", "Android"],
