@@ -4,4 +4,4 @@
 
 angular.module('portfolioApp.constants', [])
     .constant('version', '0.1')
-    .constant('baseTitle', 'Breana Jones | ');
+    .constant('baseTitle', 'Breana Gonzales | ');
