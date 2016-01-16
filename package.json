@@ -1,7 +1,7 @@
 {
     "name": "portfolio-seed",
     "description": "A starter project for the Portfolio project",
-    "repository": "https://github.com/dstephenson/portfolio-seed.git",
+    "repository": "https://github.com/breanajgonzales/Portfolio.git",
     "engines": {
         "node": "~0.10.23"
     },
